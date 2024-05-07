@@ -34,12 +34,15 @@
                     <h2> Contact Us </h2>
                     <h4> Our Admission will follow with newest information the Product or Promotion </h4>
                 </header>
-                <section class ="coreitem-form">   
-                    <label> Full Name: </label> <br> <input type="text" name="First & Last Name" placeholder="First & Last Name" >
+                <form class ="coreitem-form" id="forminput" >   
+                    <label> Fullname: </label> <br> 
+                        <input type="text" id="fullname_input" placeholder="Fullname"  >
                     <br><br>
-                    <label> Email Address: </label> <br> <input type="text" name="Email Address" placeholder="sample@mail.com">
+                    <label> Email Address: </label> <br>
+                        <input type="text" id="email_input" placeholder="sample@mail.com" >
                     <br><br>
-                    <label> Mobile Number: </label> <br> <input type="text" name="Mobile Number" placeholder="08111111199">
+                    <label> Mobile Number: </label> <br> 
+                        <input type="text" id="mobile_number_input" placeholder="08111111199"   >
                     <br><br>
                     <label> Info: </label> <br>
                         <select name="info" > 
@@ -48,8 +51,9 @@
                             <Option value="Promo"> Promo Info </Option>
                         </Select>
                     <br><br>
-                    <input type="submit" value="Submit"> 
-                </section>
+                    <input type="submit" value="Submit" onclick="return validateform()" method="post"> 
+                </form>
+                <script src="js/script.js"></script>
             </div>
         </section>
         <br>
