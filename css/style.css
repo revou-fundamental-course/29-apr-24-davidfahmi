@@ -93,20 +93,21 @@
     margin-top: 15px;
     padding-top: 0px;
     border-radius: 15px;
+    background-size: auto ;
 }
 
 .btn-center{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     position: relative;
-    left: 10%;
-    top: -60%;
+    left: 45%;
+    top: -3%;
     border-radius: 45%;
     background-color: blanchedalmond;
     /* border: 10px; */
     border-color: rgb(223, 208, 195) ;
     color: rgb(187, 104, 187);
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .coreitem-iteminfo{
