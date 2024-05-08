@@ -1,3 +1,9 @@
+@media screen and (max-width: 300px) {
+    .navigation-container{flex-direction: column}
+    
+}
+
+
 .navigation-container{
     display: flex;
     justify-content: space-between;
@@ -26,9 +32,19 @@
 
 .navigation-container>nav>button{
     height: 32px ;
+    width: 80px;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     background-color: bisque;
+    align-content: center;
+    /* box-shadow: 20px; */
+}
+
+.navigation-container>nav>button:hover{
+    height: 32px ;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgb(253, 167, 62);
     align-content: center;
 }
 
@@ -36,6 +52,7 @@
     background-color: blanchedalmond;
     text-align: center;
     font-family: monospace ;
+    height: 125px;
 }
 
 
@@ -63,10 +80,33 @@
     height: 420px;
     width: 70%;
     margin: 20px;
+    /* justify-content: center;
+    align-items: center; */
     /* image-orientation: center; */
     background-color: antiquewhite;
     /*background-image: url(../asset/PawonPakPit_General5.jpg);
     background-size: contain;*/
+}
+
+.img-slideshow{
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 0px;
+    border-radius: 15px;
+}
+
+.btn-center{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 10%;
+    top: -60%;
+    border-radius: 45%;
+    background-color: blanchedalmond;
+    /* border: 10px; */
+    border-color: rgb(223, 208, 195) ;
+    color: rgb(187, 104, 187);
+    font-size: 50px;
 }
 
 .coreitem-iteminfo{
@@ -95,12 +135,14 @@
     width: 100%;
     height: 25px;
     border-radius: 5px;
+    border-color: aliceblue;
 }
 
 .coreitem-form>select{
     width: 100%;
     height: 25px;
     border-radius: 5px;
+    border-color: aliceblue;
 }
 
 .coreitem-form>input[type=submit]{
@@ -140,6 +182,10 @@
     background-color: bisque;
 }
 
+.Pecel-Madiun>img {
+    border-radius: 10px;
+}
+
 .Pecel-Madiun>h1 {
     font-size: 20px;
 }
@@ -156,6 +202,10 @@
     font-family: monospace;
     text-align: center;
     background-color: bisque;
+}
+
+.Jamblang-Cirebon>img {
+    border-radius: 10px;
 }
 
 .Jamblang-Cirebon>h1 {
@@ -177,6 +227,10 @@
     background-color: bisque;
 }
 
+.Soto-Boyolali>img {
+    border-radius: 10px;
+}
+
 .Soto-Boyolali>h1 {
     font-size: 20px;
 }
@@ -194,6 +248,11 @@
     text-align: center;
     background-color: bisque;
 }
+
+.Nasi_Liwet-Sunda>img {
+    border-radius: 10px;
+}
+
 
 .Nasi_Liwet-Sunda>h1 {
     font-size: 20px;
