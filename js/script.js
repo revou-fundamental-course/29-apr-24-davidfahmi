@@ -31,10 +31,16 @@ function validateform  () {
         // or  (forminputmobilenumber == "" )
     // if ( length (forminputemail+forminputmobilenumber+forminputemail)  == 0)     {
         alert ("Fullname, Email & Mobile Number can't be empty!");
+        return false;}
+        // else {("Thank You " + forminputname + ", Our Admission will follow with newest information the Product or Promotion");  
+        // alert ("Thank You " + forminputname + ", Our Admission will follow with newest information the Product or Promotion")
         // document.getElementById('name03').innerHTML= document.forms['form-input']['form-input_fullname'].value
         // document.getElementById('form_error-msg').innerHTML="Tidak Boleh Kosong!"
-        return false 
-    } 
+        // return false;
+
+        alert ("Thank You " + forminputname + ", Our Admission will follow with newest information the Product or Promotion")
+        return true;
+         
     //     document.getElementById('name03').innerHTML= forminputname;
     //     document.getElementById('form_error-msg').innerHTML=""
     // return false 
